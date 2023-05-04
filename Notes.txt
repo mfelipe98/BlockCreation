@@ -1,0 +1,13 @@
+Notes:
+
+This simulation is contained inside the StorageCCaseStudy class
+
+Based on the given inputs, transactions are generated over a 50 year period with random chance (within bounds) of image files. Video files were previously included, so there are some remnants of them in the inputs and dispersed in the code.
+
+In the terminal, diagnostics are printed for each year containing the year, average visits per day, average image visit percentage, average image size, the size of the data created within the year, and the percent increase in size from the previous year. This proved useful in developing the simulation so that it followed the parameters which were specified.
+
+In output.txt, the size of each block in the chain is displayed.
+
+In output1.txt, the year, data created in the year (TB), as well as the total data (TB) is displayed.
+
+To run this simulation, the main method on StorageCaseStudy must simply be run. The grow rate input may be changed as you please, but it is shown to be divided by 5 as this growth happens over a 5 year period.
